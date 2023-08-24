@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-image: url('../assets/Cloud.png') repeat;
+    z-index: 1;
+}
+
+.text-container{
+    position: absolute;
+    right : 660px;
+    top: 200px;
+    text-align: left;
+}
+.text-container p{
+    margin-top: 10px;
+    size: 12.5px;
+    line-height: 18px;
+}
+.arrow2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background: #0052CC;
+    left: 10px;
+    top:140px
+}
+
+
+.box-container{
+    position: absolute;
+    right: -400px;
+    top:-180px;
+    width: 800px;
+    motion-rotation: 0;
+    cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+    
+}
+
+.box-container img{
+    height: 800px;
+    width: 100%;
+
+}
+

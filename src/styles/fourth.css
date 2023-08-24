@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-image: url('../assets/net1.png');
+    background-size: cover;
+    z-index: 1;
+}
+
+.text-container{
+    position: absolute;
+    right : 660px;
+    top: 100px;
+    text-align: left;
+}
+.text-container p{
+    margin-top: 10px;
+    size: 12.5px;
+    line-height: 18px;
+}
+.down-arrow {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background: #0052CC;
+    left: 10px;
+    top: 330px;
+}
+.arrow1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background: #0052CC;
+    left: 10px;
+    top: 330px;
+}
+
+.box-container{
+    position: absolute;
+    right: -400px;
+    top:-180px;
+    width: 800px;
+    motion-rotation: 0;
+    cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+    
+}
+
+.box-container img{
+    height: 800px;
+    width: 100%;
+
+}
+
+.rotated {
+    transform: rotate(360deg);
+  }
+
+  .down-sliding-box{
+    position: absolute;
+    top: 200px;
+    right: 140px;
+  }
+  .up-sliding-box{
+    position: absolute;
+    top: -500px;
+    right: 120px;
+    z-index: -2;
+  }

@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #9EC8FF;
+    
+}
+
+.navbar{
+    display: grid;
+    grid-template-areas: 'hamburger logo menu';
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    padding: 40px;
+    padding-top: 10px;
+    
+}
+.hamburger{
+    grid-area: hamburger;
+    justify-self: start;
+    z-index: 20;
+}
+.logo{
+    height: 60px;
+    width: 150px;
+    margin: auto;
+    grid-area: logo;
+    padding-top: 0;
+    justify-self: center;
+    z-index: 1000;
+
+}
+.logo img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.menu{
+    grid-area: menu;
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    z-index: 4;
+}
+.menu a{
+    text-decoration: none;
+    color: black
+}
+
+
+/* Navbar ends */

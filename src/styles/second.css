@@ -1,0 +1,13 @@
+.second-page{
+  position: absolute;
+  left: -400px;
+  top:-120px;
+  width: 800px;
+  motion-rotation: 0;
+}
+
+.second-page img{
+   height: 800px;
+   width: 100%;
+   
+}
